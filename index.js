@@ -16,8 +16,11 @@ bot.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if (cmd === `${prefix}ping`){
-    message.channel.send("Pong!");
+  if (cmd === `${prefix}help`){
+    message.channel.send("Hello, @Staff will be here shortly to help you out!");
+    
+  if (cmd === `${prefix}download`){
+    message.channel.send("Uhmm, Vixelated isn't out yet. It will be out when its done.");
   }
 });
 
