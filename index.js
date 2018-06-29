@@ -18,9 +18,7 @@ bot.on("message", async message => {
 
   if (cmd === `${prefix}help`){
     message.channel.send("Hello, @Staff will be here shortly to help you out!");
-    
-  if (cmd === `${prefix}download`){
-    message.channel.send("Uhmm, Vixelated isn't out yet. It will be out when its done.");
+
   }
 });
 
