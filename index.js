@@ -17,7 +17,7 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}help`){
-    message.channel.send("Hello, @Staff will be here shortly to help you out!");
+    message.channel.send("**Hello, @Staff will be here shortly to help you out!**");
  
   }
 });
