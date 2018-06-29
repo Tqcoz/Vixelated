@@ -19,8 +19,6 @@ bot.on("message", async message => {
   if (cmd === `${prefix}`){
     message.channel.send("**Hello, I am Vixelated! I was actually an Human like you until I got bit by an Vixel which is a female fox and then I turned into an Vixel, after that a Tqco named Tqco_Tuesdqy found me and named me Vixelated. I now work for Vixelated which is a Minecraft Client and Web Browser, I am making for people. Sadly it is not available yet due to the fact it's not finished. Whenever it is, I will be sure to announce it to you guys!**");
     
- const DiscordRPC = require("discord-rpc");
-
 const ClientId = '462054174234902541';
 
 DiscordRPC.register(ClientId);
