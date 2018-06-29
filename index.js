@@ -18,6 +18,7 @@ bot.on("message", async message => {
 
   if (cmd === `${prefix}help`){
     message.channel.send("**Hello, @Staff will be here shortly to help you out!**");
+    
  const DiscordRPC = require("discord-rpc");
 
 const ClientId = '462054174234902541';
