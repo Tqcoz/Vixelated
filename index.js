@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity(`Hey, Wassup!`);
+  bot.user.setActivity(`Vixelated Here!`);
 });
 
 bot.on("message", async message => {
@@ -18,6 +18,10 @@ bot.on("message", async message => {
 
   if (cmd === `${prefix}help`){
     message.channel.send("Hello, @Staff will be here shortly to help you out!");
+    
+  if (cmd === `${prefix}release`){
+   message.channel.send("Right Now, Vixelated is currently being developed.");
+
 
   }
 });
