@@ -1,1 +1,1 @@
-worker: node index.js, node src/referobot.js
+worker: node index.js
