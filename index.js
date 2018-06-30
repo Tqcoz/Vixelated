@@ -33,7 +33,7 @@ rpc.on('ready', () => {
     // largeImageKey: 'large',
     // largeImageText: 'Providing Vixelated',
     // smallImageKey: 'small',
-    // smallImageText: 'Online',
+    // smallImageText: 'Offline',
     instance: false,
   });
 });
