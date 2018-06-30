@@ -1,3 +1,2 @@
 worker: node index.js
-
-worker: node rpc.js
+ worker: node rpc.js
